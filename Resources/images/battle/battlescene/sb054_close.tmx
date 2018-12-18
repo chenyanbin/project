@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="zhaoze_close1" tilewidth="32" tileheight="32">
+  <image source="close/zhaoze_close1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="481" name="pingyuan_close" tilewidth="32" tileheight="32">
+  <image source="close/pingyuan_close.png" width="1024" height="116"/>
+ </tileset>
+ <tileset firstgid="577" name="damo_close1" tilewidth="32" tileheight="32">
+  <image source="close/damo_close1.png" width="712" height="500"/>
+ </tileset>
+ <layer name="close" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0PefzwUAx/Fvd0VTGlpEKS00lZLknHVn3HHD3uP2HY47685xd+5OdjQUDVs7ZbWjTTtR0UBatEXTs//g89vxeHzej8fzD3i/IpEjbzFRkUgbYmlLO9rTgY7EEU8nOtOFriSQSDe6k0QyKaRGVfero2c9tOpJL3rTh770oz8DGMggBjOEoQxjOGmkk0EmWWSH/QMvR6tc8hjBSEaRz2jGUEAhYxnHeCYwkSKKmUQJk5kS9g+8Uq3KKGcqFVRSxTRuYzozmMksZjOHudzOPOZzB3dyV9g/8O7WagH3cC8LWcR93M8DPMhilrCUZSxnBStZxUM8zCM8GvYPvMe0epwneJLVPMXTrGEt61jPBp7hWZ7jeV7gRV7iZTayKewfeK9o9Sqv8Tpv8CZvsZktvM07vMt7vM8HfMhHbOVjtrGdT8L+gfepVp+xg518zhd8yVfsYjd7+Jq9fMO3fMf3/MA+9vMjP4X9A+9nrX7hV37jdw7wBwc5xJ/8xd/8w7/893/j6EjkGKKI5liOo0Z0db86elZTq+M5gRM5iZM5hVqcSm1O43TO4EzqcBZncw7nch51qRf2D7zztapPAy7gQhpyERfTiEu4lMu4nCtoTBOaciVXcTXXcG3YP/Cu06oZ13MDzbmRm2jBzbTkFlpxK62JoQ2xtKUd7elAx7B/4MVpFU8nOtOFriSQSDe6k0QyKaTSg570ojd96Es/+of9A2+AVgMZxGCGMJRhDCeNdDLIJItscsgljxGMZBT5jA77B94YrQooZCzjGM8EJlJEMZMoYTJTKKWMcqZSQSVVTDtC+x8GPpCf9w==
+  </data>
+ </layer>
+</map>

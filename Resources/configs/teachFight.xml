@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dict>
+	<playerInit>
+	<data ID = "1" dictID = "113040" level ="120" quality = "5"  prestige = "2" health = "999999" attack = "3000" defend = "4000" critic = "3500" tenaci = "2500" hit = "0" block = "2000" damageAdd = "0" fireResist = "0" iceResist = "0" boltResist = "0" windResist = "0" poisonResist = "0"/>
+	
+	<data ID = "2" dictID = "113110" level ="120" quality = "5" prestige = "2"  health = "999999" attack = "5000" defend = "4500" critic = "3500" tenaci = "2500" hit = "0" block = "2000" damageAdd = "0" fireResist = "0" iceResist = "0" boltResist = "0" windResist = "0" poisonResist = "0"/>
+
+	</playerInit>
+</dict>

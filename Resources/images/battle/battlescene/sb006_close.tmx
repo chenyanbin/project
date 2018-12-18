@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="gusongzhen_close1" tilewidth="32" tileheight="32">
+  <image source="close/gusongzhen_close1.png" width="760" height="634"/>
+ </tileset>
+ <layer name="close" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzd0XWwVGUYB2AQC5RQEQxEBAERURAVAxFBkA4RFZTu7q5Ld3d3d6MYIBiABdiECnZgFxbPzlxn+IO78wG63OU355ndmXN2f+/3nhQp/v/UoCa1qE0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rSLgaznw1pTwc60onOdKEr3ehOD3rSiwR604e+9KM/AxjIIAYzJIZniOcMZRjDGcFIRjGaMYxlHOOZwEQmMZkpTGUa05nBTGYxO4ZniOfMYS7zmM8CFrKIxSxhKctYzgpWsorVrGEt61jPBjayKZaHiOM8yVNs5mme4VmeYwtbeZ5tbOcFXuQlXmYHO9nFK7zKa7wewzPEc95gN3vYy5u8xdu8w7u8x/vsYz8HOMgHfMhHHOIwH/MJn55C9+nk8Gn+/kzlMz7nC77kK77mG47wLd/xPT/wIz/xM7/wK7/xO0f5gz/56xS6j8+RkzzH0ZN8Prnkb/6JfEnp4hxScS7ncT4XcCGpScNFXExa0pGeDFzCpVxGxpT/TffZnsudMROZuYIruYqrycI1ZOVasnEd2cnB9eQkF7m5gTzcSN6A3YV0/5tsUf4vdxy/p5vMno+buYX8FOBWCnIbt3MHhbiTu7ibeyjMvRThPopyP8UCdhLSHS2FE+8XSfwsGofvobiZH6AEJXmQUpSmDGUpR3kqUJFKVOYhqvAwVXmER3mMagG7COmOliqJ94/vjrdUN/PjPEENalKL2tShLvWoTwMa0ojGNKEpzWhOC1rSitYBuwjpTipJdUcS0p1c0sasbWlHezrQkU50pgtd6UZ3etCTXiTQmz70pR/9GcDAgB2EdCeVpLojCelOLhlk1sEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jOjIAdhHSfKNG6IwnpTi6ZadZZzGYOc5nHfBawkEUsZglLWcZyVrCSVaxmDWtZx/qAHYR0nyjRuiMJ6Q7JMX5+5l8=
+  </data>
+ </layer>
+</map>

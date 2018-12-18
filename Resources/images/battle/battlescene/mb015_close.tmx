@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="linjiang_close1" tilewidth="32" tileheight="32">
+  <image source="close/linjiang_close1.png" width="908" height="153"/>
+ </tileset>
+ <layer name="close1" width="32" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzbVSAwEAQMHgTnB3d3cLENzd3R3+v2Jr5nqaezNbv0gkLCwsLOy/SiCRJJJJIZU00skgkyyyySGXKHnkU0AhRRRTQilllFNBJVUB/2pqqKWOehpopIlmWmiljXY66KSLbnropY9+BhhkiGFGGGUs4D/OBJNMMc0MMWaZY544CyyyxDIrrLLGOhtsssU2O+yyxz4HAf9DjjjmhFPOOOeCS6645oZb7rjngUeeeOaFV95454NPvvjm58/7FzqfGLk=
+  </data>
+ </layer>
+</map>

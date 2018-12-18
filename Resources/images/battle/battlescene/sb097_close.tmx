@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="song_close1" tilewidth="32" tileheight="32">
+  <image source="close/song_close1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="481" name="song_close2" tilewidth="32" tileheight="32">
+  <image source="close/song_close2.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="961" name="song_close3" tilewidth="32" tileheight="32">
+  <image source="close/song_close3.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="1441" name="song_close4" tilewidth="32" tileheight="32">
+  <image source="close/song_close4.png" width="1024" height="494"/>
+ </tileset>
+ <tileset firstgid="1921" name="song_close5" tilewidth="32" tileheight="32">
+  <image source="close/song_close5.png" width="1024" height="494"/>
+ </tileset>
+ <tileset firstgid="2401" name="song_close6" tilewidth="32" tileheight="32">
+  <image source="close/song_close6.png" width="1024" height="494"/>
+ </tileset>
+</map>

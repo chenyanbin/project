@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="xiagu_mid1" tilewidth="32" tileheight="32">
+  <image source="xiagu/xiagu_mid1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="481" name="xiagu_mid2" tilewidth="32" tileheight="32">
+  <image source="xiagu/xiagu_mid2.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="961" name="xiagu_mid3" tilewidth="32" tileheight="32">
+  <image source="xiagu/xiagu_mid3.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="1441" name="xiagu_mid4" tilewidth="32" tileheight="32">
+  <image source="xiagu/xiagu_mid4.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="1921" name="chengzhen_mid1" tilewidth="32" tileheight="32">
+  <image source="chengzhen/chengzhen_mid1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="2401" name="chengzhen_mid2" tilewidth="32" tileheight="32">
+  <image source="chengzhen/chengzhen_mid2.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="2881" name="chengzhengai_mid1" tilewidth="32" tileheight="32">
+  <image source="chengzhen/chengzhengai_mid1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="3361" name="chengzhengai_mid2" tilewidth="32" tileheight="32">
+  <image source="chengzhen/chengzhengai_mid2.png" width="1024" height="500"/>
+ </tileset>
+ <layer name="mid1" width="64" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzN1VOXmAcUhtFpnMxMbLdNatttbNu2bdu2bdu2bdu2uvMr5jtr7fv3uToZQkNCMpKJzGQhK9nITg5ykovc5CEv+chPAQpSiMIUoSjFKE4JSlKK0pShLOUoT0RfBRsqUonKVKEq1ahODWpSi9rUoS71qE8DGtKIxjShKc1oTgta0orWtKEt7WgfgP4ONnSkE53pQle60Z0e9KQXvelDX/rRnwEMZBCDGcJQhjGcEYxkFKMZw1jGMT4A/RNsmMgkJjOFqUxjOjOYySxmM4e5zGM+C1jIIhazhKUsYzkrWMkqVrOGtaxjfQD6N9iwkU1sZgtb2cZ2drCTXexmD3vZx34OcJBDHOYIRznGcU5wklOc5gxnOcf5APRfsOEil7jMFa5yjevc4Ca3uM0d7nKP+zzgIY94zBOe8oznvOAlr3jNG97y7n17WETXh4R8YEMkIhOFqEQjOjGISSxCCSOc2MQhLvGITwISkojEJCEpyUhOClKSitSkIW0A+j+04SM+Jh3p+YRP+YzP+YIv+Yqv+YZv+Y7v+YEf+Ymf+YVf+Y3f+YM/+Yu/+Yd/+S8A/RlsyEgmMpOFrGQjOznISS5yk4e85CM/BShIIQpThKIUozglKEkpSlOGspSjfAD6K9hQkUpUpgpVqUZ1alCTWtSmDnWpR30a0JBGNKYJTWlGc1rQkla0pg1taUf7APR3sKEjnehMF7rSje70oCe96E0f+tKP/gxgIIMYzBCGMozhjGAkoxjNGMYyjvEB6J9gw0QmMZkpTGUa05nBTGYxmznMZR7zWcBCFrGYJSxlGctZwUpWsZo1rGUd6wPQv8GGjWxiM1vYyja2s4Od7GI3e9jLPvZzgIMc4jBHOMoxjnOCk5ziNGc4yznOB6D/gg0XucRlrnCVa1znBje5xW3ucJd73OcBD3nEY57wlGc85wUvecVr3vCWd+/bwyO63v+3IRKRiUJUohGdGMQkFqGEEU5s4hCXeMQnAQlJRGKSkJRkJCcFKUlFatKQNgD9/wMjgw7i
+  </data>
+ </layer>
+ <layer name="mid2" width="64" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzNz9O2XQkARNHTZpK2Fdu2bdu2bdu2bdu2bdt2z3zF3TXGfK8VCoXtIoYLhSIRmShEJRrRiUFMYhGbOMQlHvFJQEISkZgkJCUZyUlBSlKRmjSkJR3pyRAujOMtow+ZyEwWspKN7OQgJ7nITR7yko/8FKAghShMEYpSjOKUoCSlKE0ZylKO8lQIQH9FHypRmSpUpRrVqUFNalGbOtSlHvVpQEMa0ZgmNKUZzWlBS1rRmja0pR3t6RCA/o4+dKIzXehKN7rTg570ojd96Es/+jOAgQxiMEMYyjCGM4KRjGI0YxjLOMYzIQD9E32YxGSmMJVpTGcGM5nFbOYwl3nMZwELWcRilrCUZSxnBStZxWrWsJZ1rGdDAPo3+rCJzWxhK9vYzg52sovd7GEv+9jPAQ5yiMMc4SjHOM4JTnKK05zhLOc4z4UA9F/04RKXucJVrnGdG9zkFre5w13ucZ8HPOQRj3nCU57xnBe85BWvecNb3vH+Q3v4sK4PhT7y4WM+4VM+43O+4Eu+4mu+4VvCEZ4IfMf3/MCP/MTP/MKv/Mbv/MGf/MXf/MO//BeA/og+RCIyUYhKNKITg5jEIjZxiEs84pOAhCQiMUlISjKSk4KUpCI1aUhLOtKTIQD9GX3IRGaykJVsZCcHOclFbvKQl3zkpwAFKURhilCUYhSnBCUpRWnKUJZylKdCAPor+lCJylShKtWoTg1qUova1KEu9ahPAxrSiMY0oSnNaE4LWtKK1rShLe1oT4cA9Hf0oROd6UJXutGdHvSkF73pQ1/60Z8BDGQQgxnCUIYxnBGMZBSjGcNYxjGeCQHon+jDJCYzhalMYzozmMksZjOHucxjPgtYyCIWs4SlLGM5K1jJKlazhrWsYz0bAtC/0YdNbGYLW9nGdnawk13sZg972cd+DnCQQxzmCEc5xnFOcJJTnOYMZznHeS4EoP+iD5e4zBWuco3r3OAmt7jNHe5yj/s84CGPeMwTnvKM57zgJa94zRve8o73H9ojhEL/A9QiFmI=
+  </data>
+ </layer>
+</map>

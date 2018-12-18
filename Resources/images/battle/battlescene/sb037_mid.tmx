@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="jiangshui_mid1" tilewidth="32" tileheight="32">
+  <image source="jiangshui/jiangshui_mid1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="481" name="jiangshui_mid2" tilewidth="32" tileheight="32">
+  <image source="jiangshui/jiangshui_mid2.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="961" name="jiangshui_mid3" tilewidth="32" tileheight="32">
+  <image source="jiangshui/jiangshui_mid3.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="1441" name="jinshanzhanchang_mid1" tilewidth="32" tileheight="32">
+  <image source="jinshanzhanchang/jinshanzhanchang_mid1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="1921" name="jinshanzhanchang_mid2" tilewidth="32" tileheight="32">
+  <image source="jinshanzhanchang/jinshanzhanchang_mid2.png" width="1024" height="500"/>
+ </tileset>
+ <layer name="mid1" width="32" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwN0+NiHgYAAMBvbZPUtm3bqW3bts2tdod23mrbtm3btnk/7hFuRlAgMJNZzGYOc5nHfBawkEUsZglLWcZyVrCSVaxmDWtZx3o2sJFNbGYLW9nGdnawk13sZg972cd+DnCQQxzmCEc5xnFOcJJTnOYMZznHeS5wkUtc5gpXucZ1bnCTW9zmDne5x30e8JBHPOYJT3nGc17wkle85g1vecd7PvCRT3zmC1/5RiA4EPiBMIQlHEEEE0J4IhCRSEQmClGJRnRiEJNYxCYOcYlHfBKQkEQkJglJSUZyUpCSVKQmDWlJR3oykJFMZCYLWclGdnKQk1zkJg95yUd+ClCQQhSmCEUJpRjFKUFJSlGaMpSlHOWpQEUqUZkqVKUa1alBTWpRmzrUpR71aUBDGtGYJjSlGc1pQUta0Zo2tKUd7elARzrRmS50pRvd6UFPetGbPvSlH/0ZwEAGMZghDGUYw/mRnxjBSEYxmjGMZRzjmcBEJjGZKUzlZ37hV35jGtP5nT/4k7/4m3/4l//4nxnMZBazmcNc5jGfBSxkEYtZwlKWsZwVrGQVq1nDWtaxng1sZBOb2cJWtrGdHexkF7vZw172sZ8DHOQQhznCUY5xnBOc5BSnOcNZznGeC1zkEpe5wlWucZ0b3OQWt7nDXe5xnwc85BGPecJTnvGcF7zkFa95w1ve8Z4PfOQTn/nCV74RCPGfMIQlHEEEE0J4IhCRSEQmClGJRnRiEJNYxCYOcYlHfBKQkEQkJglJSUZyUpCSVKQmDWlJR3oykJFMZCYLWclGdnKQk1zkJg95yUd+ClCQQhSmCEUJpRjFKUFJSlGaMpSlHOWpQEUqUZkqVKUa1alBTWpRmzrUpR71aUBDGtGYJjSlGc1pQUta0Zo2tKUd7elARzrRmS50pRvd6UFPetGbPvSlH/0ZwEAGMZghDGUY3wHYZ/hT
+  </data>
+ </layer>
+</map>

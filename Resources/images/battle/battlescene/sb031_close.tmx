@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="pingyuan_close" tilewidth="32" tileheight="32">
+  <image source="close/pingyuan_close.png" width="1024" height="116"/>
+ </tileset>
+ <tileset firstgid="97" name="zhaoze_close1" tilewidth="32" tileheight="32">
+  <image source="close/zhaoze_close1.png" width="1024" height="500"/>
+ </tileset>
+ <layer name="close" width="32" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzck2AmAAgNFIJBlLhBZlpsyKsFCZqVCZ3/81uutewf+dc9dfJBIKhUKh/94Qw0QZIcYoY8QZJ8EESSaZYpoZZpkjRZp5MiywSJYlllkhN/DPU2CVNdbZYJMtttlhlyIl9tjngEOOOOaEU8pUOOOcKhdccjXwv6ZGnQY33HLHPQ888sQzLzRp0eaVN97p0KXHB5988c0Pv/zRB8OdD/o=
+  </data>
+ </layer>
+</map>

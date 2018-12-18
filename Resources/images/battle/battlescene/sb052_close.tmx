@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="pingyuan_close" tilewidth="32" tileheight="32">
+  <image source="close/pingyuan_close.png" width="1024" height="116"/>
+ </tileset>
+ <tileset firstgid="97" name="damo_close1" tilewidth="32" tileheight="32">
+  <image source="close/damo_close1.png" width="712" height="500"/>
+ </tileset>
+ <layer name="close1" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzd0Pe3z3UcB3AUIkoZRUlDw2iglBLapWggpNK93MvlTnu79t7udYe7r3tRoqHSVDRQGirtPVFo0JSHP+D7g47v+ZyP53k/fnn/8Dqv56tChcNPDLH0oS9xxNOP/iQwgIEkkkQyKaSSxiAGM4ShDPsfexyJhLHLcEYwklGMZgxjGcd40pnARCYxmSlMZRrTmcFMZjE7yjtHShi7zGEu85jPAhayiMVkkMkSssgmh1yWkkc+BRRSRHGUd46UMHYpoZRllFHOclawkgd5iFU8zGrW8AiP8hiPs5YneJKnorxzpISxyzqe5hme5Tme5wXW8yIvsYGNvMwrvMprbGIzW3idN9ga5Z0jJYxd3uQt3uYdtvEu7/E+2/mAD/mIj/mET/mMz/mCL/mKr/kmyjtHShi7fMt3fM8P/MgOdrKLn/iZ3exhL7/wK7/xO/vYzx/8yV9R3jlSwtjlb/7hXw7w36HPih6VOIZjqUwVqnIc1ajO8dSgJidwIrUqRnnpo6jLSeafTG3qUJd6nMKp1KcBp3E6DTmDRpzJWZzNOTTmXM4L6P5h7HK++RfQhKY0ozkXchEXcwktaEkrLuUyWnM5V9CGK7mKtgHdP4xdrja/He3pwDVcy3Vczw3cyE3czC105FZuoxOduZ07uJO7Arp/GLt0Mb8r3bib7vSgJ/fQi3u5j/vpzQPEEEsf+hJHPP3oH9D9w9glwfwBDCSRJJJJIZU0BjGYIQxlGMMZwUhGMZoxjGVcQPcPY5fx5qczgYlMYjJTmMo0pjODmcxiNnOYyzzms4CFLGJxQPcPY5cM8zNZQhbZ5JDLUvLIp4BCiiimhFKWUUY5y1nByoDuH3SXgzISTZQ=
+  </data>
+ </layer>
+</map>

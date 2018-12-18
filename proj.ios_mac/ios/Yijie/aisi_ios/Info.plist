@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleIconFile</key>
+    <string>Icon-57.png</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>AliPay</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.emindsoft.qxsg</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string />
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>As1953</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true />
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.emindsoft.qxsg.i4</string>
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>alipay</string>
+      <string>weixin</string>
+      <string>mqqapiwallet</string>
+      <string>i4Tool4008227229</string>
+    </array>
+    <key>com.snowfish.appid</key>
+    <string>{0E2306A6-004DA3E4}</string>
+    <key>CFBundleName</key>
+    <string>${PRODUCT_</string>
+    <key>CFBundleIconFiles</key>
+    <array>
+      <string>Icon-29.png</string>
+      <string>Icon-40.png</string>
+      <string>Icon-50.png</string>
+      <string>Icon-57.png</string>
+      <string>Icon-58.png</string>
+      <string>Icon-72.png</string>
+      <string>Icon-76.png</string>
+      <string>Icon-80.png</string>
+      <string>Icon-87.png</string>
+      <string>Icon-100.png</string>
+      <string>Icon-114.png</string>
+      <string>Icon-120.png</string>
+      <string>Icon-144.png</string>
+      <string>Icon-152.png</string>
+      <string>Icon-180.png</string>
+    </array>
+    <key>com.snowfish.sdk.version</key>
+    <string>2</string>
+    <key>channelLabel</key>
+    <string>aisi</string>
+    <key>CFBundleDisplayName</key>
+    <string>奇袭三国志</string>
+    <key>com.snowfish.channel</key>
+    <string>SNOWFISH</string>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true />
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIAppFonts</key>
+    <array />
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>com.snowfish.channelid</key>
+    <string>{AA41112D-0CCA498D}</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleIconFiles~ipad</key>
+    <array>
+      <string>Icon-29</string>
+      <string>Icon-50</string>
+      <string>Icon-58</string>
+      <string>Icon-80</string>
+      <string>Icon-40</string>
+      <string>Icon-100</string>
+      <string>Icon-152</string>
+      <string>Icon-76</string>
+      <string>Icon-120</string>
+      <string>Icon.png</string>
+      <string>Icon@2x.png</string>
+      <string>Icon-57.png</string>
+      <string>Icon-114.png</string>
+      <string>Icon-72.png</string>
+      <string>Icon-144.png</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false />
+    <key>com.snowfish.customer</key>
+    <string>SNOWFISH</string>
+    <key>UIPrerenderedIcon</key>
+    <true />
+  </dict>
+</plist>
+

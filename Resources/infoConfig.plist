@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true/>
+		</dict>
+		<key>loginURLList</key>
+		<string>http://login.qxsgz.com.cn:8000,120.132.73.121:8000</string>
+		<key>loginURLNative</key>
+		<string>36.110.17.45,192.168.20.35,36.110.17.45</string>
+		<key>loginPort</key>
+		<string>80</string>
+		<key>sdkURL</key>
+		<string>account/sdk1_login_confirm</string>
+		<key>noSdkURL</key>
+		<string>account/third_party_confirm</string>
+		<key>serverListURL</key>
+		<string>account/scense_server_list</string>
+		<key>subChannelActive</key>
+		<string>account/sub_channel_activate</string>
+		<key>isSdkMode</key>
+		<false/>
+		<key>dataVersionDomain</key>
+		<string>http://upgrade.qxsgz.com.cn:7998,120.132.73.121:7998</string>
+		<key>nativeDataVersionDomain</key>
+		<string>http://36.110.17.45:7998,http://upgrade.qxsgz.com.cn:7998</string>
+		<key>dictVersionName</key>
+		<string>newDict_version.json</string>
+		<key>resourceVersionName</key>
+		<string>avatar_version.json</string>
+		<key>appVersionName</key>
+		<string>app_version.json</string>
+		<key>channelDataURL</key>
+		<string>download/channelUpdate/DictChannel.json</string>
+		<key>isNative</key>
+		<true/>
+		<key>isShowNewPlayerGuide</key>
+		<true/>
+		<key>isAutoDownClient</key>
+		<true/>
+		<key>channel</key>
+		<string>emind</string>
+		<key>subChannel</key>
+		<string>emind0</string>
+		<key>resourceId</key>
+		<string>1</string>
+		<key>version</key>
+		<string>1.0.8</string>
+		<key>isDebug</key>
+		<false/>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

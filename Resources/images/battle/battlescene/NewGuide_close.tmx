@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cheng_close1" tilewidth="32" tileheight="32">
+  <image source="close/cheng_close1.png" width="497" height="500"/>
+ </tileset>
+ <layer name="close" width="64" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzdztOuXVEAQNFT27Ztu7e2bdu2bdu2bds2/6TjJ3ZW0pmM9xkvFovFJwEJSURikpCUZCQnBSlJRWrSxP6P0pKO9GQgI5nITBayko3s5CAnucgdYjaC8pCXfOSnAAUpRGGKUJRiFKcEJSkV4DWKSlOGspSjPBWoSCUqU4WqVKM6NagZYjaCalGbOOpQl3rUpwENaURjmtCUZjQP8BpFLWhJK1rThra0oz0d6EgnOtOFrnQLMRtB3elBT3rRmz70pR/9GcBABjGYIQwN8BpFwxjOCEYyitGMYSzjGM8EJjKJyUwJMRtBU5nGdGYwk1nMZg5zmcd8FrCQRSwO8BpFS1jKMpazgpWsYjVrWMs61rOBjWwKMRtBm9nCVraxnR3sZBe72cNe9rGfAxwM8BpFhzjMEY5yjOOc4CSnOM0ZznKO81wIMRtBF7nEZa5wlWtc5wY3ucVt7nCXe9wP8BpFD3jIIx7zhKc84zkveMkrXvOGt7wLMRtB7/nARz7xmS985Rvf+cFPfvGbP/wN8BpF/wB/+2NS
+  </data>
+ </layer>
+</map>

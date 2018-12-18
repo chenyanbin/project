@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="pingyuan_close" tilewidth="32" tileheight="32">
+  <image source="close/pingyuan_close.png" width="1024" height="116"/>
+ </tileset>
+ <layer name="块层 1" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0FNuBVAUQNFX27Zt27bN+Y+iq8mbw22as5P1fZDJRFEURVEURVEURVEURf+5HHLJI58CCimimBJKKaOcCiqpopoaaqmjngYaaaKZFlppo50OOulKPLv7D9z/u0MPvfTRzwCDDDHMCKOMMc4Ek0wxzQyzzDHPAossscwKq6yxzgabbCWevZ39f+oddthlj30OOOSIY0445YxzLrjkimtuuOWOex545IlnXnjljXc++OQr8ezv7P9T7/ADkqw10Q==
+  </data>
+ </layer>
+</map>

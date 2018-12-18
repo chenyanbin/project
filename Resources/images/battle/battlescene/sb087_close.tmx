@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="linjiang_close1" tilewidth="32" tileheight="32">
+  <image source="close/linjiang_close1.png" width="908" height="153"/>
+ </tileset>
+ <tileset firstgid="113" name="linjiang_close2" tilewidth="32" tileheight="32">
+  <image source="close/linjiang_close2.png" width="1062" height="140"/>
+ </tileset>
+</map>

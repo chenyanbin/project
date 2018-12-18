@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="damo_close1" tilewidth="32" tileheight="32">
+  <image source="close/damo_close1.png" width="712" height="500"/>
+ </tileset>
+ <layer name="close1" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy91/fbT3Ucx/H7a+/b3nvvvffeMlKpUKmQECoplfaijKZVUUZoaZDdQksZITtltJAG2o/+hHM5n/O+rseP53M9Xz+e9LS0tLzkIz8FKEghCqed/6XIQEYykZksZCUb2clBTnKRmzykB+4KdVH3VqIyVahKNapTg5ox9BShKMUoTglKUorSlKEs5ShPBSom0BXqou5tQUta0Zo2tKUd7WPoqUVt6lCXetSnAQ1pRGOa0JRmNE+gK9RF3duXflxIfy7iYi5hQAw9HehIJzrTha50ozs96EkvLqA3fRLoCnVR9w5jONcxgusZyShGx9BzKZdxOQMZxGCu4EquYghXcw3XMjSBrlAXde8d3Mkk7uJu7uFe7ouh5wbGMJZx3MhN3Mx4bmECt3IbE7k9ga5QF3Xv4zzBkzzF0zzDTGbF0HM/D/AgD/EwjzCZKTzKY0xlGtOZkUBXqIu69yWWsJRlvMwrvMprMfTMZg5zeZbneJ55zOcFXmQBC1nE4gS6Ql3UvevZwLu8x/t8wIdsjKHndZbzBm/yFm+zgpW8wypWs4a1rEugK9RF3fslO9nFbr5iD3vZF0PPJjbzER/zCZ/yGVv4nC/Yyja2syOBrlAXde8P/MhPnOAkp/iZ0zH07OcABznE1xzmG77lCEc5xnG+4/sEukJd1L0pP8wZyEgmMpOFrGRLnX/PL/zKb/zOGc5yjj/4k7/4m3/49/+PUuG7Ql3UvUVsKUoxilOCkpSidAw7s3sjBznJRW7ykE5e8pGfAhSkEIVT4btCXdS9tahNHepSj/o0oGEMO8t4oyzlKE8FKlKJylShKtWoTg1qJtAV6qLu7UBHOtGZLnSlG91j2NnIG41pQlOa0ZwWtKQVrWlDW9rRPoGuUBd1738aXwis
+  </data>
+ </layer>
+</map>

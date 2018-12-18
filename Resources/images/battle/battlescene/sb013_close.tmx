@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="linjiang_close1" tilewidth="32" tileheight="32">
+  <image source="close/linjiang_close1.png" width="908" height="153"/>
+ </tileset>
+ <tileset firstgid="113" name="linjiang_close2" tilewidth="32" tileheight="32">
+  <image source="close/linjiang_close2.png" width="1062" height="140"/>
+ </tileset>
+ <layer name="close1" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0MVSXVEURVEcAsE9uGtwd3e3YME9Qf6/xfiF1+BdGmdWjfbatRMSQqFQKBQKhUKhUCgUCoW+tkSSSCaFVNJIJ4MfZJLFT7LJIZc88imgkCKKKaGUMsr5RQWVEex9939UUU0NtdRRTwONNNFMC6200U4Hnfymi2566KWPfgYYZIhhRiLYi7V43zfKGONMMMkU08wwyxzzLLDIEsussMoa62ywyRbb7LDLHvscRLAXa/G+75Aj/nDMCaeccc5fLrjkimtuuOWOex545IlnXvjHf155452PCPZiLd73fQI+lUop
+  </data>
+ </layer>
+ <layer name="close2" width="96" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztz/c2FnAAgGG3XBKSVYRQomGTkZVkpCQjKXtnFKLsUVYX4LkE/3znfMf5vec8F/DGxIRCoVAoFAqFQqFQKBQKXb9ucJNYbhHHbeJJIJE7JHGXZFJIJY107nGfDDJ5QBbZ5PCQXPLI5xGPKeBJxA+ju0KKeMoznvOCYkoopYxyKqikimpeUkMtddTzigYaaaKZFl7TyhvaeEs7HRE/jO466eId3bznAz18pJdP9NHPAIN8ZogvDPOVb4wwyhjjTDDJFNPMMMsc8yxE/DC6+84iSyyzwg9+ssoa6/xig01+84ctttlhlz32OeCQI475yz9OOOWMcy74H/HDq3cJ8PFcCw==
+  </data>
+ </layer>
+</map>

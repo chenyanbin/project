@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="zhucheng_close1" tilewidth="32" tileheight="32">
+  <image source="zhucheng/zhucheng_close1.png" width="439" height="239"/>
+ </tileset>
+ <tileset firstgid="92" name="zhucheng_close2" tilewidth="32" tileheight="32">
+  <image source="zhucheng/zhucheng_close2.png" width="1652" height="243"/>
+ </tileset>
+ <tileset firstgid="449" name="zhucheng_close3" tilewidth="32" tileheight="32">
+  <image source="zhucheng/zhucheng_close3.png" width="1590" height="333"/>
+ </tileset>
+ <tileset firstgid="939" name="zhucheng_close4" tilewidth="32" tileheight="32">
+  <image source="zhucheng/zhucheng_close4.png" width="671" height="779"/>
+ </tileset>
+ <tileset firstgid="1419" name="zhucheng_close5" tilewidth="32" tileheight="32">
+  <image source="zhucheng/zhucheng_close5.png" width="1321" height="228"/>
+ </tileset>
+ <tileset firstgid="1706" name="zhucheng_close6" tilewidth="32" tileheight="32">
+  <image source="zhucheng/zhucheng_close6.png" width="513" height="135"/>
+ </tileset>
+ <tileset firstgid="1770" name="blue" tilewidth="32" tileheight="32">
+  <image source="blue.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="cross" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="mid6" width="64" height="64">
+  <properties>
+   <property name="y" value="2048"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztz1dOQgEABdH3xf7XQRcQFJReRTrSmygKu3D2AIkJmZPM/71BIEmSJEmSJEmSJEmSJEmSJEmSJEmSJEm3EQ4FQYSiFKM4JShJD5SiNGXokbKUoyd6Dv33+uvl+VCgF3qlIpWoTBWqUo3q1KAmtahNnTv4/8aHLr1Tj/o0oCGNaEwTmtIHzWhOC1rewf8VH9a0oS3taE8H+qQjfdE3neiHfulMF/oD4aEz4Q==
+  </data>
+ </layer>
+ <layer name="mid5" width="64" height="64">
+  <properties>
+   <property name="y" value="1696"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztz/e3DwQcxvGvcq9ERaVCKisNKSUa0rIayoiGQoWGUSpatBeue3Ft9153D7NdWkbTjiZZRclsUITKqz/ie45z+rzPef36nPMkElEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURdH/veEpiUQaI0gng5GMYjSZjGEs4xjPBCYyiclkkU0OU8glj3wKKKSIYkoopYypTGM6M5jJLF7mFV7ltZTk/n/d/hu8yVu8zWze4V3e430+YA5zmcd8PuQjPuYTPuUzFrCQRSxmCUtZxucsZwVf8CVf8TXf8C0rWcV3rE7y/zX217KO9XzPD2xgIz/yE5v4mc1sYSvb2M4OfuFXfuN3drKLP/iT3ezhL/ayj/38zT/8+9/P1ESiHIdwKOVJSU3u/1T7FTiMihxOJSpzBEdyFFWoytEcw7FU4ziO5wSqU4OanEgtTuJkTqE2dahLPepzKg04jdM5gzNpyFk0SvL/s+2fQ2PO5TyacD5NacYFXMhFXExzLqEFl3IZl3MFV9KSVrSmDW25iqu5hmtpx3VcT3s60JFO3EBnunBjkv/fZP9mbqErt3Ib3ehOD27nDu6kJ73ozV3czT3cSx/60o/+3Mf9DOABHuQhBjKIh3mER3mMxxnMEJ7gSZ5K8v+n7T/DszzH87zAi7zEUIYxnDRGkE4GIxnFaDIZw1jGMZ4JTGQSk8kimxymkEse+RRQSBHFlFBKWZL/R1EURVEURdHB1gH8hZhs
+  </data>
+ </layer>
+ <layer name="mid4" width="64" height="64">
+  <properties>
+   <property name="y" value="1623"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt11XTkGUUhtFPSmnpDumURgVEuruV7u4GQQkl7O5u6ZDu7i5BkG6lQdrFT+CIeWeea2ad7/twx8SEQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUilqTYsfETGYKU5nGdGYwk1nM5g/mMJd5zGcBC1nEYpbEftRrHr6lbl7GclawklWsZg1rWcd6NrCRTWxmC1vZxnZ2RHD/TjfvYjd72Ms+/mQ/B/iLgxzibw5zhKMc4zgnOBnB/afcfJoznOUc5/mHf7nARS5xmStc5RrXucF/3ORWBPffdvMd7nKP+w82xImJeYxYxCYOcYnH4zxBfBKQkEQkJkmcR73m4Uvq5idJRnJSkJJUpCYNaUlHejKQkUxkJgtZeYpsEdyf3c05yEkucpOHvOQjPwUoyNMUojBFKEoxilOCkhHc/4ybn+U5SlGaMjxPWV6gHOWpQEUqUZkqVKUa1akRwf013VyL2tShLvWoTwMa0ojGNKEpzXiRl2hOC1rSKoL7W7u5DW1pR3s60JFOdKYLXelGd3rQk170pg996RfB/f3dPICBDGIwQxjKMIbzMiMYySu8yihGM4axvMbrEdw/zs3jmcBE3uBN3uJt3uFd3uN9PuBDPuJjPuFTPuPzCO7/ws1f8hVf8w3f8h3f8wM/8hM/8wu/8hu/M4nJTGFqBPdPc/N0ZjCTWczmD+Ywl3nMZwELWcRilrCUZSxnRQT3r3TzKlazhrWsYz0b2MgmNrOFrWxjOzvYyS52syeC+/e6eR9/sp8D/MVBDvE3hznCUY5xnBOc5BSnOcPZCO4/5+bz/MO/XOAil7jMFa5yjevc4D9ucovb3OEu9yK4//6Dm+P6d4hFbOIQl3g8zhPEJwEJSURikpCUJ0lG8riPes3Dl8LNKUlFatKQlnSkJwMZyURmspCVp8hGdnKQk1wR3J/bzXnISz7yU4CCPE0hClOEohSjOCUoyTM8y3OUiuD+0m4uw/OU5QXKUZ4KVKQSlalCVapRnRrUpBa1qRPB/XXdXI/6NKAhjWhME5rSjBd5iea0oCWtaE0b2tIugvvbu7kDHelEZ7rQlW50pwc96UVv+tCXfvRnAAMZFMH9g908hKEMYzgvM4KRvMKrjGI0YxjLa7zOOMYzgYkR3P8/SvLzZw==
+  </data>
+ </layer>
+ <layer name="mid3" width="64" height="64">
+  <properties>
+   <property name="y" value="1280"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1FPXXmcUhtEvNhrbbmw1Nhs3tu2ktm3bthXbTho7aYzG6cxveI/asa4x5uEaz75PdlJSFEVRFEVRFEVRFEVRFEVRFEVRFEVRFP33m5UsKWk2c5jLPOazgIUsYjFLWMoylrOClaxiNWtYyzrWs4GNbGIzW/iLrWxjOzvYyS52s4e97GM/BzjIIQ7zN0c4yjGOcyJZYvtPuj/Fac5wln84x3kucJFLXOYKV6+9mTwpKRnJSUFKUpGaNKQlHenJQEYykZksZOU6spGdHOQkF7nJQ17ykZ8CFKQQhSlCUYolT2x/cfclKEkpSlOGspTjespTgYpUojJVqEo1qlODmtSiNnWoSz3qcwMNaEgjGtOEpjSjOS1oSSta04a2tKM9HejIjXSiM10S3N/VfTe604Ob6EkvetOHvvSjPwMYyCAGM4ShDGM4IxjJKEYzhrGMYzwTmMgkJjOFqUxjOjOYyc3cwq3cxu3cwZ3cxd3cw70J7r/P/f08wIM8xMM8wqM8xuM8wZM8xdM8w7M8x/O8wIu8xMu8wqu8xuu8wZu8xdu8w7u8x/t8wId8xMd8wqd8xud8wZd8xdd8w7d8l+D+793/wI/8xM/8wq/8xu/8wZ/MYjZzmMs85rOAhSxiMUtYyjKWs4KVrGI1a1jLOtazgY1sYjNb+IutbGM7O9jJLnazh73sS3D/fvcHOMghDvM3RzjKMY5zgpOc4jRnOMs/nOM8F7jIJS5zhavXvi+FfyXJSUFKUpGaNKQlHenJQEYykZksZOU6spGdHOQkF7lTJLY/j/u85CM/BShIIQpThKIUozglKEkpSlOGspTjespTgYpUojJVqEo1qlODmtSiNnWoSz3qcwMNaEgjGtOEpjSjOS1oSasE97d234a2tKM9HejIjXSiM13oSje604Ob6EkvetOHvvSjPwMYyCAGM4ShDGM4IxjJKEYzhrGMYzwTmMgkJjOFqUxjOjOYmeD+KIqiKIqiKIqiKIqiKIqiKIr+f/0Lvr3XIw==
+  </data>
+ </layer>
+ <layer name="mid2" width="64" height="64">
+  <properties>
+   <property name="y" value="864"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztz+e7D2Qcx3FaUhmRoiQaGkghSqGlvVXWOfbee++99957j3OOYx2O2SAqNKlU2oV2lJKXf+H3jOv7vu7Xs/v74JMlSxRFURRFURRFURRFURRF52tJJFOL2tShLvWoTwMa0ojGNKEpzWhOC1rSita0oS3taE8HOtKJznShK93oTg960ove9KEv/ejPAAYyiMEMYSjDGM4IRjIqwf2jGcNYxjGeCUxkEpOZwlSmMZ0ZzGQWs5nDXOYxnwUsZBGLWcJSlrGcFaxkFatJIZU01pDOWtaxng1sJINNbCaTLWxlG9sT3L+DnbzG67zBm+xiN2+xh728zTu8yz72c4D3eJ8P+JCP+JiDHOITPuUzDvM5X/AlR/iKr/mGb/mO7/mBH/mJoxzjOD/zC7/yG7/zR4L7/+QvTnCSv/mHU/zLf5zm/7Ofs3pcwIVcxMVcQjYuJTuXcTlXkIOc5CI3V5KHvFxFPq7mGvJTgGu5joJcTyFuoDBFuJGbuJlbKMqtWRPbf5u727mDYhSnBHdSkru4m1KUpgz3UJZy3Mt9lOd+HqACFanEgzzEwzzCo1TmMR7nCZ7kKZ7mGZ7lOZ7nBV7kJarwMq/wKlWpRnVqJLi/prskkqlFbepQl3rUpwENaURjmtCUZjSnBS1pRWva0JZ2tKcDHelEZ7rQlW50pwc96UVv+tCXfvRnAAMZxGCGMJRhDGcEIxPcP8rdaMYwlnGMZwITmcRkpjCVaUxnBjOZxWzmMJd5zGcBC1nEYpawlGUsZwUrWcVqUkgljTWks5Z1rGcDG8lgE5vJZAtb2Zbg/iiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKonO1M2AruEg=
+  </data>
+ </layer>
+ <layer name="mid1" width="64" height="64">
+  <properties>
+   <property name="y" value="496"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzkdOAlAAAFGsiIgVC6KCYgN7L9h7RbGj97+HcwQ3Pz8mM8nbTyJhZmZmZn+tCc1oQSva0I4kOpBCJ9LoQibOZrC60YNe9KEfA8hiEEMYxghyGI2zGaw8xjCOCRRQxCSmUMI0ZjCLuSiX4ZpHGRUsYBFLWMYKVrGGdWxgM85msLawjR3sYg/7qOIAhzjCMU5wGuUyXGc4xwUucYVr3OAWd7jHAx5Ri7MZrCc8o44XvOIN7/jAJ77QwDd+4myamZmZmZmZmZmZmZmZmZmZmZmZmZmZmdk/7xfK9hBb
+  </data>
+ </layer>
+ <layer name="run" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztljEOgzAQBKny/3fmFdEVNCESoNjePXZGcouYwTa3bQAAAAAAAEfeL8+V6q32v9ro7rMc6f4N/yXZ/RfJ7t8kOt+BBjQoRjfo2HJkA9f9NHtWUN2tSi+HBmovhwauJPvjnueefOZxz3NP9S4c3dPnmlTvnWT3ItV7p9O7zoIGNCi6nd0Z0KDnPT6aFQ3cG89u0GF2WDkfKhuoHdUt1F4ODc56pJDqXaS6s9/z3JX3qxL1v0UJ3s93d5unVs+B6vl01cL/Wf6jUHuo/RP5APHtZT4=
+  </data>
+ </layer>
+ <objectgroup name="NPC">
+  <object name="npc" x="688" y="464">
+   <properties>
+    <property name="npcID" value="19"/>
+   </properties>
+  </object>
+  <object name="npc" x="656" y="752">
+   <properties>
+    <property name="npcID" value="18"/>
+   </properties>
+  </object>
+  <object name="npc" x="1552" y="687.667">
+   <properties>
+    <property name="npcID" value="17"/>
+   </properties>
+  </object>
+  <object name="npc" x="1359.67" y="1135">
+   <properties>
+    <property name="npcID" value="16"/>
+   </properties>
+  </object>
+  <object name="npc" x="1230" y="1076.5">
+   <properties>
+    <property name="npcID" value="15"/>
+   </properties>
+  </object>
+  <object name="npc" x="1135.67" y="1072">
+   <properties>
+    <property name="npcID" value="14"/>
+   </properties>
+  </object>
+  <object name="npc" x="1007.82" y="1104.55">
+   <properties>
+    <property name="npcID" value="13"/>
+   </properties>
+  </object>
+  <object name="npc" x="752" y="1037.33">
+   <properties>
+    <property name="npcID" value="12"/>
+   </properties>
+  </object>
+  <object name="npc" x="560.25" y="1038.5">
+   <properties>
+    <property name="npcID" value="11"/>
+   </properties>
+  </object>
+  <object name="npc" x="656" y="1296.75">
+   <properties>
+    <property name="npcID" value="10"/>
+   </properties>
+  </object>
+  <object name="npc" x="559.5" y="1489">
+   <properties>
+    <property name="npcID" value="5"/>
+   </properties>
+  </object>
+  <object name="npc" x="1039" y="1456.5">
+   <properties>
+    <property name="npcID" value="6"/>
+   </properties>
+  </object>
+  <object name="npc" x="1392" y="1456.5">
+   <properties>
+    <property name="npcID" value="7"/>
+   </properties>
+  </object>
+  <object name="npc" x="1648" y="1421.5">
+   <properties>
+    <property name="npcID" value="8"/>
+   </properties>
+  </object>
+  <object name="npc" x="1807" y="1489.67">
+   <properties>
+    <property name="npcID" value="9"/>
+   </properties>
+  </object>
+  <object name="npc" x="656" y="1712.5">
+   <properties>
+    <property name="npcID" value="4"/>
+   </properties>
+  </object>
+  <object name="npc" x="816.5" y="1872">
+   <properties>
+    <property name="npcID" value="3"/>
+   </properties>
+  </object>
+  <object name="npc" x="1359.5" y="1874">
+   <properties>
+    <property name="npcID" value="2"/>
+   </properties>
+  </object>
+  <object name="npc" x="1618" y="1873">
+   <properties>
+    <property name="npcID" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="hero">
+  <object name="1" x="655.997" y="1136.33"/>
+  <object name="2" x="1711.67" y="1935.33"/>
+  <object name="3" x="1105" y="1967.33"/>
+  <object name="4" x="369" y="2000.33"/>
+  <object name="5" x="1007.67" y="1519.33"/>
+  <object name="6" x="1520.67" y="1520.33"/>
+  <object name="7" x="1103.34" y="1168"/>
+  <object name="8" x="1455.34" y="782.663"/>
+  <object name="9" x="1072.09" y="782.913"/>
+  <object name="10" x="528.837" y="783.25"/>
+ </objectgroup>
+</map>

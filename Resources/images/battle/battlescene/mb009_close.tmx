@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="song_close5" tilewidth="32" tileheight="32">
+  <image source="close/song_close5.png" width="1024" height="494"/>
+ </tileset>
+ <layer name="close1" width="32" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztw/efDwQAgOHvFQ2zkoZEU0RDOxlNEmmq0E6JhmQkoSRkJDOjibtzxh3nhrtze++9uaMhI1Taw3j+C794P++zKhAIrGYNwYQQylrCWMd6NrCRcCLYxGYi2UIU0cQQy1biiCeBbSSSRDIppJJGOhlkkkU2OeSSRz4FFFJEMSWUUkY5FVRSRTU11FJHPdvZQQON7GQX3/Id3/MDu/mRPexlH/v5iQMc5BA/8wu/cpjf+J0/+JO/+Jt/+Jf/+J8jHOUYgSBzCqfShKacxumcwZk0ozktaEkrWnMWZ3MObTiXtpzH+VzAhbTjItpzMR3oyCVcymVczhVcSSeuojNduJqudOMaruU6rqc7N3AjN3Ezt3Art3E7PbiDnvSiN324k7u4m3u4l/voSz/upz8PMICBPMggHuJhHuFRHuNxBvMET/IUQxjKMJ7mGZ7lOZ7nBV7kJYbzMq8wglcZyShe43Xe4E1G8xZjeJuxjGM8E3iHibzLJN5jMlOYyvt8wDQ+ZDofMYOZzOJjZjOHuczjE+bzKQtYyCIWs4SlfMYylrOClXzOF3zJV3zNN6xiNWsIJoRQ1hLGOtazgY2EE8EmNhPJFqKIJoZYthJHPAlsI5EkkkkhlTTSySCTLLLJIZc88imgkCKKKaGUMsqpoJIqqqmhljrq2c4OGmhkJ7uCAic72QntOM0gsII=
+  </data>
+ </layer>
+</map>

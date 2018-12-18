@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="160" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cheng_near1" tilewidth="32" tileheight="32">
+  <image source="cheng/cheng_near1.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="481" name="cheng_near2" tilewidth="32" tileheight="32">
+  <image source="cheng/cheng_near2.png" width="1024" height="500"/>
+ </tileset>
+ <tileset firstgid="961" name="blue" tilewidth="32" tileheight="32">
+  <image source="blue.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="cross" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="962" name="cheng_near5" tilewidth="32" tileheight="32">
+  <image source="cheng/cheng_near5.png" width="1024" height="500"/>
+ </tileset>
+ <layer name="near5" width="160" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0uOSHAgAhdFOJhPbtm3btm3btm1zbdsb27btZGPsyVPMj+5bdR7gVn2BQGjBvI1hgcAmNrOFrWxjOzvYyS52s4e97GM/BzjIIQ5zhKMc4zgnOMkpTnOGs5zjPBfCIvp9aBG9ixq4xGWucJVrXOcGN7nFbe5wl3vc5wEPecRj/uMJT3nGc17wkle85g1v33UXJRCIFCWi34cW0YusgTCiEE5UohGdGMQkFrGJQ1ziEZ8EJCQRiUlCUpKRnBSkJBWpSUNa0pGeDKH+gn4ZNZCJzGQhK9nITg5ykovc5CEv+chPAQpSiMIUoSjFKE4JSlKK0pShLOUoT4VQf0G/ihqoRGWqUJVqVKcGNalFbepQl3rUpwENaURjmtCUZjSnBS1pRWva0JZ2tKdDqL+gX0cNdKIzXehKN7rTg570ojd96Es/+jOAgQxiMEMYyjCGM4KRjGI0YxjLOMYzIdRf0G+iBiYxmSlMZRrTmcFMZjGbOcxlHvNZwEIWsZglLGUZy1nBSlaxmjWsZR3r2RDqL+j3ngbe5wM+5CM+5hM+5TM+5wu+5Cu+5hu+5Tu+5wd+5Cd+5hd+5Td+5w/+5C/+5h/+DfUX9NuogU1sZgtb2cZ2drCTXexmD3vZx34OcJBDHOYIRznGcU5wklOc5gxnOcd5LoT6C/pd1MAlLnOFq1zjOje4yS1uc4e73OM+D3jIIx7zH094yjOe84KXvOI1b3j7rrvwQCBSeES/Dy2iF1kDYUQhnKhEIzoxiEksYhOHuMQjPglISCISk4SkJCM5KUhJKlKThrSkIz0ZQv0F/TJqIBOZyUJWspGdHOQkF7nJQ17ykZ8CFKQQhSlCUYpRnBKUpBSlKUNZylGeCqH+gn4VNVCJylShKtWoTg1qUova1KEu9ahPAxrSiMY0oSnNaE4LWtKK1rShLe1oT4dQf0G/jhroRGe60JVudKcHPelFb/rQl370ZwADGcRghjCUYQxnBCMZxWjGMJZxjGdCqL+g30QNTGIyU5jKNKYzg5nMYjZzmMs85rOAhSxiMUtYyjKWs4KVrGI1a1jLOtazgf8BJFLwtQ==
+  </data>
+ </layer>
+ <layer name="near4" width="160" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0tPOJAgUhdG2bdu2bdu2bdu2bdu2bXePbXvWPERlKvnrS9b1yUl2uHCh/s/CE4GIRCIyUYhKNKITg5jEIjZxiEs84pOAhCQiMUlISjKSk4KUpCI1aUhLusC/FyrIS08GMpKJzGQhK9nITg5ykovc5CEv+chPAQpSiMIUoSjFKE4JSlKK0pShLOUC/16oIK88FahIJSpThapUozo1qEktalOHutSjPg1oSCMa04SmNKM5LWhJK1rThra0C/x7oYK89nSgI53oTBe60o3u9KAnvehNH/rSj/4MYCCDGMwQhjKM4YxgJKMYzRjGMi7w74UK8sYzgYlMYjJTmMo0pjODmcxiNnOYyzzms4CFLGIxS1jKMpazgpWsYjVrWMu6wL8XKshbzwY2sonNbGEr29jODnayi93sYS/72M8BDnKIwxzhKMc4zglOcorTnOEs5wL/Xqgg7zwXuMglLnOFq1zjOje4yS1uc4e73OM+D3jIIx7zhKc84zkveMkrXvOGt7wL/Huhgrz3eJ8P+JCP+JhP+JTP+Jwv+JKv+Jpv+Jbv+J4f+JGf+Jlf+JXf+J0/+JO/+Jt//jsePvD/hQruwttABCISichEISrRiE4MYhKL2MQhLvGITwISkojEJCEpyUhOClKSitSkIS3pQvsL86W3gQxkJBOZyUJWspGdHOQkF7nJQ17ykZ8CFKQQhSlCUYpRnBKUpBSlKUNZyoX2F+YrbwMVqEglKlOFqlSjOjWoSS1qU4e61KM+DWhIIxrThKY0ozktaEkrWtOGtrQL7S/M194GOtCRTnSmC13pRnd60JNe9KYPfelHfwYwkEEMZghDGcZwRjCSUYxmDGMZF9pfmG+8DUxgIpOYzBSmMo3pzGAms5jNHOYyj/ksYCGLWMwSlrKM5axgJatYzRrWsi60vzDfehvYwEY2sZktbGUb29nBTnaxmz3sZR/7OcBBDnGYIxzlGMc5wUlOcZoznOVcaH9hvvM2cIGLXOIyV7jKNa5zg5vc4jZ3uMs97vOAhzziMU94yjOe84KXvOI1b3jLuyDY378gIOLS
+  </data>
+ </layer>
+ <layer name="near3" width="160" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0uOSHAgAhdFOJhPbtm3btm3btm1zbdsb27btZGPsyVPMj+5bdR7gVn2BQHBvY1ggsInNbGEr29jODnayi93sYS/72M8BDnKIwxzhKMc4zglOcorTnOEs5zjPhbCIfh9aRO+iBi5xmStc5RrXucFNbnGbO9zlHvd5wEMe8Zj/eMJTnvGcF7zkFa95w9t33UUJBCJFiej3oUX0ImsgjCiEE5VoRCcGMYlFbOIQl3jEJwEJSURikpCUZCQnBSlJRWrSkJZ0pCdDqL+gX0YNZCIzWchKNrKTg5zkIjd5yEs+8lOAghSiMEUoSjGKU4KSlKI0ZShLOcpTIdRf0K+iBipRmSpUpRrVqUFNalGbOtSlHvVpQEMa0ZgmNKUZzWlBS1rRmja0pR3t6RDqL+jXUQOd6EwXutKN7vSgJ73oTR/60o/+DGAggxjMEIYyjOGMYCSjGM0YxjKO8UwI9Rf0m6iBSUxmClOZxnRmMJNZzGYOc5nHfBawkEUsZglLWcZyVrCSVaxmDWtZx3o2hPoL+r2ngff5gA/5iI/5hE/5jM/5gi/5iq/5hm/5ju/5gR/5iZ/5hV/5jd/5gz/5i7/5h39D/QX9NmpgE5vZwla2sZ0d7GQXu9nDXvaxnwMc5BCHOcJRjnGcE5zkFKc5w1nOcZ4Lof6Cfhc1cInLXOEq17jODW5yi9vc4S73uM8DHvKIx/zHE57yjOe84CWveM0b3r7rLjwQiBQe0e9Di+hF1kAYUQgnKtGITgxiEovYxCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelIT4ZQf0G/jBrIRGaykJVsZCcHOclFbvKQl3zkpwAFKURhilCUYhSnBCUpRWnKUJZylKdCqL+gX0UNVKIyVahKNapTg5rUojZ1qEs96tOAhjSiMU1oSjOa04KWtKI1bWhLO9rTIdRf0K+jBjrRmS50pRvd6UFPetGbPvSlH/0ZwEAGMZghDGUYwxnBSEYxmjGMZRzjmRDqL+g3UQOTmMwUpjKN6cxgJrOYzRzmMo/5LGAhi1jMEpayjOWsYCWrWM0a1rKO9WwI9Rf4H+Zi8LU=
+  </data>
+ </layer>
+ <layer name="near2" width="160" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0mOvpgcUhtFzxrZt27Zt27Zt27Ztq7btju3pGF1N+h/mw/vcyfq+d3KFhb29ReB8eFjYBS5yictc4SrXuM4NbnKL29zhLve4zwMe8oh/eMwTnvKM57zgJa94zZvw/w8IFtIL10AEIhKJyEQhKtGITgxiEovYxCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLemC/kJ+6TWQgYxkIjNZyEo2spODnOQiN3nISz7yU4CCFKIwRShKMYpTgpKUojRlKEu5oL+QX3kNVKAilahMFapSjerUoCa1qE0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rSLugv5NdeAx3oSCc604WudKM7PehJL3rTh770oz8DGMggBjOEoQxjOCMYyShGM4axjAv6C/mN18AEJjKJyUxhKtOYzgxmMovZzGEu85jPAhayiMUsYSnLWM4KVrKK1axhLeuC/kJ+6zWwgY1sYjNb2Mo2trODnexiN3vYyz72c4CDHOIwRzjKMY5zgpOc4jRnOMu5oL+Q3zsaeJf3eJ8P+JCP+JhP+JTP+Jwv+JKv+Jpv+Jbv+J4f+JGf+Jlf+JXf+J0/+JO/+DvoL+R3XgMXuMglLnOFq1zjOje4yS1uc4e73OM+D3jII/7hMU94yjOe84KXvOI1b/5rL+Lb/j7Y2164BiIQkUhEJgpRiUZ0YhCTWMQmDnGJR3wSkJBEJCYJSUlGclKQklSkJg1pSRf0F/JLr4EMZCQTmclCVrKRnRzkJBe5yUNe8pGfAhSkEIUpQlGKUZwSlKQUpSlDWcoF/YX8ymugAhWpRGWqUJVqVKcGNalFbepQl3rUpwENaURjmtCUZjSnBS1pRWva0JZ2QX8hv/Ya6EBHOtGZLnSlG93pQU960Zs+9KUf/RnAQAYxmCEMZRjDGcFIRjGaMYxlXNBfyG+8BiYwkUlMZgpTmcZ0ZjCTWcxmDnOZx3wWsJBFLGYJS1nGclawklWsZg1rWRf0F/Jbr4ENbGQTm9nCVraxnR3sZBe72cNe9rGfAxzkEIc5wlGOcZwTnOQUpznDWc4F/b31/QsUe+lV
+  </data>
+ </layer>
+ <layer name="near1" width="160" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0tOyXQkARdEb27Zt27Zt27ZtW23b7ti2bScdo0e+4j6cvarGB6yquTFSWNgmNrOFrWxjOzvYyS52s4e97GM/BzjIIQ5zhKMc4zgnOMkpTnOGs5zjPBcIFtq7qIFLXOYKV7nGdW5wk1vc5g53ucd9HvCQRzzmP57wlGc85wUvecVr3vD2XXeRw8IiRA7v98HCexE1EInIRCEq0YhODGISi9jEIS7xiE8CEpKIxCQhKclITgpSkorUpCEt6UhPhqC/kF9GDWQiM1nISjayk4Oc5CI3echLPvJTgIIUojBFKEoxilOCkpSiNGUoSznKUyHoL+RXUQOVqEwVqlKN6tSgJrWoTR3qUo/6NKAhjWhME5rSjOa0oCWtaE0b2tKO9nQI+gv5ddRAJzrTha50ozs96EkvetOHvvSjPwMYyCAGM4ShDGM4IxjJKEYzhrGMYzwTgv5CfhM1MInJTGEq05jODGYyi9nMYS7zmM8CFrKIxSxhKctYzgpWsorVrGEt61jPhqC/kN97GnifD/iQj/iYT/iUz/icL/iSr/iab/iW7/ieH/iRn/iZX/iV3/idP/iTv/ibf/g36C/kt1EDm9jMFrayje3sYCe72M0e9rKP/RzgIIc4zBGOcozjnOAkpzjNGc5yjvNcCPoL+V3UwCUuc4WrXOM6N7jJLW5zh7vc4z4PeMgjHvMfT3jKM57zgpe84jVvePuuuyhhYRGihPf7YOG9iBqIRGSiEJVoRCcGMYlFbOIQl3jEJwEJSURikpCUZCQnBSlJRWrSkJZ0pCdD0F/IL6MGMpGZLGQlG9nJQU5ykZs85CUf+SlAQQpRmCIUpRjFKUFJSlGaMpSlHOWpEPQX8quogUpUpgpVqUZ1alCTWtSmDnWpR30a0JBGNKYJTWlGc1rQkla0pg1taUd7OgT9hfw6aqATnelCV7rRnR70pBe96UNf+tGfAQxkEIMZwlCGMZwRjGQUoxnDWMYxnglBfyG/iRqYxGSmMJVpTGcGM5nFbOYwl3nMZwELWcRilrCUZSxnBStZxWrWsJZ1rGdD0F/I73+ogfC1
+  </data>
+ </layer>
+ <layer name="run" width="160" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0jENAAAIwDAS/IvCGQo4eOBpkzlYBAAAAAAAAHCpUtrnP30GwKwB/KzZcQ==
+  </data>
+ </layer>
+ <objectgroup name="hero">
+  <object x="400" y="399"/>
+  <object x="399" y="367"/>
+ </objectgroup>
+ <objectgroup name="block">
+  <object x="1007" y="366">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </object>
+  <object x="1007" y="398">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </object>
+  <object x="1744.66" y="367">
+   <properties>
+    <property name="block" value="2"/>
+   </properties>
+  </object>
+  <object x="1744.66" y="399">
+   <properties>
+    <property name="block" value="2"/>
+   </properties>
+  </object>
+  <object x="4816" y="400">
+   <properties>
+    <property name="block" value="6"/>
+   </properties>
+  </object>
+  <object x="4816" y="368">
+   <properties>
+    <property name="block" value="6"/>
+   </properties>
+  </object>
+  <object x="2576" y="401.333">
+   <properties>
+    <property name="block" value="3"/>
+   </properties>
+  </object>
+  <object x="2576" y="369.333">
+   <properties>
+    <property name="block" value="3"/>
+   </properties>
+  </object>
+  <object x="4080.33" y="368">
+   <properties>
+    <property name="block" value="5"/>
+   </properties>
+  </object>
+  <object x="4080.33" y="400">
+   <properties>
+    <property name="block" value="5"/>
+   </properties>
+  </object>
+  <object x="3281.21" y="368.758">
+   <properties>
+    <property name="block" value="4"/>
+   </properties>
+  </object>
+  <object x="3281.21" y="400.758">
+   <properties>
+    <property name="block" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="monster">
+  <object x="815" y="367">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="261"/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="815.34" y="399.333">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="261"/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4656" y="399.667">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="263"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4431.66" y="367">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2032.33" y="367.333">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2063.66" y="367">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1360" y="400">
+   <properties>
+    <property name="block" value="2"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1392" y="399.667">
+   <properties>
+    <property name="block" value="2"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2032" y="399">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1360.33" y="368.333">
+   <properties>
+    <property name="block" value="2"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2064" y="398.667">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1391.66" y="368">
+   <properties>
+    <property name="block" value="2"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4367.67" y="399.667">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4368" y="368">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="751.993" y="367.334">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="261"/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="752.333" y="399.667">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="261"/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="783.993" y="367.667">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="261"/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="784.333" y="400">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="261"/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1423.34" y="367.666">
+   <properties>
+    <property name="block" value="2"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1423.01" y="399.333">
+   <properties>
+    <property name="block" value="2"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2001" y="400.667">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2001.33" y="369">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2384.33" y="367.333">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2384.67" y="399">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2350.99" y="368">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2351.33" y="399.667">
+   <properties>
+    <property name="block" value="3"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2959.33" y="400">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3024.34" y="399.333">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2958.99" y="368.333">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2992.33" y="367.666">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3024.67" y="367.666">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2992.67" y="399.333">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2799.66" y="401.667">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2799.32" y="370">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2864.67" y="401">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2865" y="369.333">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2832.66" y="369.333">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2833" y="401">
+   <properties>
+    <property name="block" value="4"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4335.67" y="399.667">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4336" y="368">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4432" y="400">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4463.67" y="399.667">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4464" y="368">
+   <properties>
+    <property name="block" value="6"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3791.48" y="397.576">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3600.48" y="365.242">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3856.49" y="396.909">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3791.14" y="365.909">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3631.81" y="364.909">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3632.15" y="396.576">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3824.48" y="365.242">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3569.48" y="366.909">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3856.82" y="365.242">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3600.15" y="396.909">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3569.15" y="398.576">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3824.82" y="396.909">
+   <properties>
+    <property name="block" value="5"/>
+    <property name="enterway" value="2"/>
+    <property name="stagebattlemonster" value="262"/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="touch">
+  <object x="687" y="398.667">
+   <properties>
+    <property name="NewGuideId" value="3"/>
+    <property name="battlemonster" value=""/>
+    <property name="block" value="1"/>
+    <property name="enterway" value=""/>
+    <property name="touch" value="1"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="4175.99" y="399.667">
+   <properties>
+    <property name="NewGuideId" value="8"/>
+    <property name="battlemonster" value=""/>
+    <property name="block" value="6"/>
+    <property name="enterway" value=""/>
+    <property name="touch" value="6"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1231" y="399">
+   <properties>
+    <property name="NewGuideId" value="4"/>
+    <property name="battlemonster" value=""/>
+    <property name="block" value="2"/>
+    <property name="enterway" value=""/>
+    <property name="touch" value="2"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="1936" y="399">
+   <properties>
+    <property name="NewGuideId" value="5"/>
+    <property name="battlemonster" value=""/>
+    <property name="block" value="3"/>
+    <property name="enterway" value=""/>
+    <property name="touch" value="3"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="2926.67" y="400.667">
+   <properties>
+    <property name="NewGuideId" value="6"/>
+    <property name="battlemonster" value=""/>
+    <property name="block" value="4"/>
+    <property name="enterway" value=""/>
+    <property name="touch" value="4"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+  <object x="3535.7" y="399.697">
+   <properties>
+    <property name="NewGuideId" value="7"/>
+    <property name="battlemonster" value=""/>
+    <property name="block" value="5"/>
+    <property name="enterway" value=""/>
+    <property name="touch" value="5"/>
+    <property name="turn" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -29,3 +29,4 @@ frameworks
 xsdk_unpack_script
 luacompiles.sh
 unpack_script
+proj.linux

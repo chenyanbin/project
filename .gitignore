@@ -30,3 +30,7 @@ xsdk_unpack_script
 luacompiles.sh
 unpack_script
 proj.linux
+proj.android
+proj.win32
+IM_SDK
+proj.wp8-xaml
